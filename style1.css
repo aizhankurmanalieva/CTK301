@@ -1,0 +1,57 @@
+/*This is my new stylesheet*/
+
+p {
+ color: #253DB6;
+ background-color: #FAEEEE;
+}
+<!-- HTML -->
+/* CSS */
+h1 {
+  color: #3F70BF;
+}
+
+<p>
+ <a href="themainpage.html">Program Description</a>
+ <a href="thesecondpage.html">Program Description</a>
+ <a href="thethirdpage.html">Program Description</a>
+</p>
+
+a {
+ color: #FC0707;
+}
+
+a:link {
+ color: #EF3700;
+}
+
+a:visited {
+ color: #07FC28;
+}
+
+a:active {
+ color: #FC0707;
+}
+
+a:hover {
+ color: #F6F321;
+}
+<!-- HTML -->
+<header>
+ <!-- fancy title -->
+</header>
+
+<nav>
+ <!-- navigation -->
+</nav>
+
+<main>
+   <!-- main content -->
+</main>
+
+<footer>
+ <!-- spiffy footer -->
+</footer>
+/ CSS /
+#specialid {
+color: #000000;
+}
