@@ -6,9 +6,6 @@ p {
 }
 <!-- HTML -->
 /* CSS */
-h1 {
-  color: #3F70BF;
-}
 
 <p>
  <a href="themainpage.html">Program Description</a>
@@ -16,12 +13,16 @@ h1 {
  <a href="thethirdpage.html">Program Description</a>
 </p>
 
+h1 {
+  color: #3F70BF;
+}
+/* CSS */
 a {
- color: #FC0707;
+ color: #F63008;
 }
 
 a:link {
- color: #EF3700;
+ color: #F63008;
 }
 
 a:visited {
@@ -35,23 +36,22 @@ a:active {
 a:hover {
  color: #F6F321;
 }
-<!-- HTML -->
-<header>
- <!-- fancy title -->
-</header>
 
-<nav>
- <!-- navigation -->
-</nav>
-
-<main>
-   <!-- main content -->
-</main>
-
-<footer>
- <!-- spiffy footer -->
-</footer>
-/ CSS /
 #specialid {
-color: #000000;
+ color: #591151;
+ background-color: #F6A708
+}
+
+.specialp {
+ color: #11593D;
+ background-color: #BEC04D;
+}
+
+#divexample {
+  color: #0000FF;
+  background-color: #FFFF00;
+}
+
+.spanstyle {
+  color: #F6A708
 }
