@@ -1,0 +1,46 @@
+h1 {
+ color: #FFFFFF;
+}
+/* CSS */
+a {
+ color: #09A811;
+}
+
+a:link {
+ color: #09A811;
+}
+
+a:hover {
+ color: #A8090C;
+}
+
+a {
+ text-decoration: none;
+}
+
+a:hover {
+ text-decoration: underline;
+}
+#divexample {
+  background-color: #6909A8
+}
+h2 {
+ color: #0924A8;
+}
+.spanstyle {
+  color: #F6A708
+}
+h3 {
+ background-color: #9BA809;
+}
+#specialid {
+ color: #A8090C;
+}
+h4 {
+ color: #9BA809;
+ background-color: #09A819;
+}
+h5 {
+ color: #9BA809;
+ background-color: #09A819;
+}
