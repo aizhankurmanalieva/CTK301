@@ -1,0 +1,86 @@
+/*This is my new stylesheet*/
+
+p {
+ color: #253DB6;
+ background-color: white;
+}
+<!-- HTML -->
+/* CSS */
+
+<p>
+ <a href="themainpage4.html">Program Description</a>
+ <a href="thesecondpage4.html">Program Description</a>
+ <a href="thethirdpage4.html">Program Description</a>
+</p>
+/* CSS */
+a {
+ color: #F63008;
+}
+
+a:link {
+ color: #F63008;
+}
+
+a:visited {
+ color: #07FC28;
+}
+
+a:active {
+ color: #FC0707;
+}
+
+a:hover {
+ color: #F6F321;
+}
+
+#specialid {
+ color: #591151;
+ background-color: #F6A708
+}
+
+.specialp {
+ color: #11593D;
+ background-color: #BEC04D;
+}
+
+#divexample {
+  color: #0000FF;
+  background-color: #FFFF00;
+}
+
+.spanstyle {
+  color: #F6A708
+}
+
+.customtext {
+font-family: sans-serif;
+font-size: 20px;
+}
+h1 {
+  font-style: italic;
+  color: orange;
+}
+
+h2 {
+  font-style: italic;
+  color: orange;
+}
+
+.textcenter {
+text-align: center;
+}
+
+.textjustify {
+text-align: justify;
+}
+.imgbox {
+border: 10px solid black;
+padding: 20px;
+margin: 20px 20px 20px 20px;
+}
+
+body {
+  background-image: url(g.jpeg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
