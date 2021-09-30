@@ -39,6 +39,12 @@ background-color: #C34A36
 main a:link{
   color: red;
   text-decoration: none;
+  font-weight: bold;
+}
+main a:visited {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 main a:hover {
