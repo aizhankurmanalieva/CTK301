@@ -1,0 +1,111 @@
+body {
+  background-color: #999999;
+  background-image: url(background.jpg);
+}
+
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0px;
+  width: 900px;
+  border: 4px solid black;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+header {
+  grid-column: span 3;
+  border-bottom: 2px solid black;
+  padding: 0 1em;
+  background-color: #add8e6;
+  font-family: ariel, Helvetica, sans-serif;
+}
+
+nav {
+  grid-column: span 3;
+  padding: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  width: 180px;
+  display: inline-block;
+  margin: 1em 1em 0 1em;
+}
+
+nav li a {
+  display: block;
+  background-color: green;
+  border: 3px solid black;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family: ariel, Helvetica, sans-serif;
+}
+
+main a{
+  text-decoration: none;
+  color: #013220;
+}
+
+main a:hover{
+  color: red;
+}
+
+nav li a:hover {
+  background-color: red;
+}
+
+
+main {
+  grid-column: span 2;
+  padding: 1em;
+  padding-top: 0px;
+}
+
+main h2 {
+  border-bottom: 2px solid black;
+}
+
+
+main img {
+  float: right;
+  width: 300px;
+}
+
+aside {
+  grid-column: span 1;
+  padding: 1em;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  background-color: #add8e6;
+  color: white;
+}
+
+aside h2 {
+  color: green;
+  border-bottom: 2px solid white;
+  font-weight: bold;
+  color: white;
+}
+
+
+footer {
+  background-color: #add8e6;
+  grid-column: span 3;
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 3px solid black;
+  font-weight: bold;
+  font-family: ariel, Helvetica, sans-serif;
+}
