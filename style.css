@@ -1,8 +1,3 @@
-/*
-Zerotheme.com | Free Html5 Responsive Templates
-Author URI: http://www.zerotheme.com/
-*/
-
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
@@ -86,7 +81,11 @@ body {font: 14px/25px Arial, Helvetica, sans-serif;font-family: 'Raleway', sans-
 body .wrap-body{}
 body .wrap-body {background-image: url(../images/bg3.jpg);background-position: center center;background-repeat: no-repeat;background-attachment: fixed;background-size: cover;color:#fff;position: relative;}
 /* body .wrap-body:before {content:"";display: block;height: 100%;position: absolute;top: 0;left: 0;width: 100%;visibility: visible;background-color: rgba(0, 0, 0, .6);} */
-
+body {
+background-image: url("images/bg3.jpg");
+background-color: white;
+background-repeat: no-repeat;
+}
 .widget-title{position: relative;letter-spacing: 1px;font-weight: bold;text-transform: uppercase;line-height: 1.38;margin-bottom: 20px;font-size: 15px;color: #eee;padding-left: 13px;}
 
 .widget-title:before {background-color: #098F8E;content: "";height: 1em;left: 0;margin-top: -0.5em;position: absolute;top: 50%;width: 3px;}
