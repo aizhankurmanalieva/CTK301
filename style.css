@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-/* ---------------------------------------------------------------------------- */
+/
+h1 { font-family: 'Creepster', cursive; }
+* ---------------------------------------------------------------------------- */
 /* ------------------------------------Reset----------------------------------- */
 /* ---------------------------------------------------------------------------- */
 a,abbr,acronym,address,applet,article,aside,audio,b,blockquote,big,body,center,canvas,caption,cite,code,command,datalist,dd,del,details,dfn,dl,div,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,keygen,label,legend,li,meter,nav,object,ol,output,p,pre,progress,q,s,samp,section,small,span,source,strike,strong,sub,sup,table,tbody,tfoot,thead,th,tr,tdvideo,tt,u,ul,var{background:transparent;border:0 none;font-size:100%;margin:0;padding:0;border:0;outline:0;vertical-align:top;}ol, ul {list-style:none;}blockquote, q {quotes:none;}table, table td {padding:0;border:none;border-collapse:collapse;}img {vertical-align:top;}embed {vertical-align:top;}
@@ -21,9 +23,31 @@ input, textarea, select {margin:0; padding:0px;}
           box-sizing: border-box;
 }
 
-/* ---------------------------------------------------------------------------- */
-/* ---------------------------------------------------------------------------- */
-/* ---------------------------------------------------------------------------- */
+.roundedbox {
+  padding: 10px;
+  width: 250px;
+  border: 2px solid #999;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.circle {
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+  border: 3px solid green;
+  background-color: red;
+  color: white;
+  border-radius: 500px;
+}
+.dropshadowbox {
+  padding: 10px;
+  margin: 20px;
+  width: 250px;
+  border: 1px solid #999;
+  background-color: #ccc;
+  box-shadow: 10px 10px 10px #666; /* x, y, blur, color */
+}
 
 html { -webkit-text-size-adjust: none;}
 .video embed,.video object,.video iframe { width: 100%;  height: auto;}
@@ -79,12 +103,11 @@ hr.line { margin: 15px 0; padding: 0; max-width: 80px;border: 0; border-top: sol
 html, body {width:100%; padding:0; margin:0;}
 body {font: 14px/25px Arial, Helvetica, sans-serif;font-family: 'Raleway', sans-serif;background: #fff;color: #666;font-size: 15px;line-height: 1.6em;letter-spacing: .2px;}
 body .wrap-body{}
-body .wrap-body {background-image: url(../images/bg3.jpg);background-position: center center;background-repeat: no-repeat;background-attachment: fixed;background-size: cover;color:#fff;position: relative;}
+body .wrap-body {background-image: url(..bg3.jpg);background-position: center center;background-attachment: fixed;background-size: cover;color:#fff;position: relative;}
 /* body .wrap-body:before {content:"";display: block;height: 100%;position: absolute;top: 0;left: 0;width: 100%;visibility: visible;background-color: rgba(0, 0, 0, .6);} */
 body {
-background-image: url("images/bg3.jpg");
+background-image: url("bg3.jpg");
 background-color: white;
-background-repeat: no-repeat;
 }
 .widget-title{position: relative;letter-spacing: 1px;font-weight: bold;text-transform: uppercase;line-height: 1.38;margin-bottom: 20px;font-size: 15px;color: #eee;padding-left: 13px;}
 
@@ -260,11 +283,11 @@ footer .col-footer-3 a:hover{color: #fff;background: #000;}
 footer .col-footer-4 img{margin-bottom: 20px;}
 
 footer .bottom-social{margin-bottom: 20px;}
-footer .bottom-social i.fa{font-size: 24px;margin-right: 12px;}
+footer .bottom-social i.fa{font-size: 24px;margin-right: 12px; color: #fff;}
 
 
-footer .bottom-footer{text-align: center;padding: 40px 0;color: #fff;}
-footer .bottom-footer a{text-decoration: underline}
+footer .bottom-social{text-align: center;padding: 40px 0;color: black;}
+footer .bottom-social a{text-decoration: underline}
 .copyright{font-size: 17px;}
 
 /* ---------------------------------------------------------------------------- */
